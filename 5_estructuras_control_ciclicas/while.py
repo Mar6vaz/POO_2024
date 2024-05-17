@@ -1,14 +1,16 @@
-#El for es una estructura de control repetitiva o ciclica que funciona con interaciones X veces de acuerto a los valores numericos enteros que contenga 
+# El while es una estructura de control repetitiva o ciclica que funciona con iteraciones X veces siempre y cuando la condicion sea "True"
 
-#Sintaxi:
+# Sintaxi: 
 
-#for variable in elemento_interable(list, range, etc.):
+# while condicion:
 #     bloque instrucciones
 
-#Ejemplo 1 Crea r un programa que imprima 5 veces el caracter @ 
+#Ejemplo 1 Crear un programa que imprima 5 veces el caracter @
 
-for contador in range(1,6):
+contador=1
+while contador<=5:
     print("@")
+    contador+=1
 
 #Ejemplo 2 Crea r un programa que imprima los numeros del 1 al 5 los sume e imprima la suma al final
 
