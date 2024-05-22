@@ -3,9 +3,9 @@
 #Poner un comentario para poner el tipo de dato
 
 
-# Crear variable para el país (tipo de dato: cadena de texto)
+# Crear variable para el país (tipo de dato: string)
 pais=input("Ingrese un pais: ")
-# Crear variable para el continente (tipo de dato: cadena de texto)
+# Crear variable para el continente (tipo de dato: string)
 continente=input("Ingrese un continente: ")
 
 # Mostrar el valor de las variables en pantalla
