@@ -9,6 +9,8 @@ while contador <= 60:
     print("El cuadrado de", contador, "es:", cuadrado)
     contador += 1
 
+    
+
 # Utilizando un bucle for
 for contador in range(1, 61):
     cuadrado = contador ** 2
