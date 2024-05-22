@@ -3,7 +3,7 @@
 aprobados = 0
 reprobados = 0
 
-# Bucle para solicitar las calificaciones de los 15 alumnos
+
 for i in range(1, 16):
     while True:
         try:
@@ -15,13 +15,13 @@ for i in range(1, 16):
         except ValueError:
             print("Por favor, introduce un número válido.")
     
-    # Contabilizar aprobados y reprobados
+    
     if calificacion >= 60:
         aprobados += 1
     else:
         reprobados += 1
 
-# Imprimir los resultados
+        
 print(f"\nNúmero de alumnos aprobados: {aprobados}")
 print(f"Número de alumnos reprobados: {reprobados}")
 
