@@ -10,7 +10,6 @@ if inicio < fin:
     
     print("Los números entre", inicio, "y", fin, "son:")
     for i in range(inicio, fin + 1):
-        print(i, end=" ")
-    print()  
+        print(f"El siguiente numero es: {i}") 
 else:
     print("El primer número debe ser menor que el segundo número.")
