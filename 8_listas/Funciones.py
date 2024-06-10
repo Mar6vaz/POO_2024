@@ -10,7 +10,7 @@ def remover_pelicula():
         peliculas.remove(pelicula)
         print(f"Película '{pelicula}' removida con éxito.")
     else:
-        print(f"Película '{pelicula}' no encontrada en la lista.")
+        print(f"Película '{pelicula}' no se encuentra en la lista.")
 
 def consultar_peliculas():
     if peliculas:

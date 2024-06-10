@@ -1,3 +1,5 @@
+#Vazquez Gonzalez Mariela 
+
 #Calculadora basica
 #opcion=True
 #while opcion:
@@ -64,7 +66,7 @@ while opcion:
    esperarTecla()
  else:  
    opcion=False  
-   print("Terminaste la ejecucion del SW") 
+   print("Terminaste la ejecucion del del programa ") 
 
 
 

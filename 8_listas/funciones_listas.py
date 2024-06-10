@@ -20,7 +20,7 @@ numeros.append(100)
 
 #Eliminar elemento
 print(numeros)
-numeros.pop(2)
+numeros.pop(3)
 print(numeros)
 numeros.remove(100)
 
