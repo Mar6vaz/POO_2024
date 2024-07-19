@@ -4,7 +4,7 @@ try:
     host='localhost',
     user='root',
     password='',
-    database='bd_python'
+    database='bd'
 )
 
 except:
